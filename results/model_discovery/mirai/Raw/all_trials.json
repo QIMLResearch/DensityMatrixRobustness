@@ -1,0 +1,142 @@
+[
+    {
+        "trial_number": 0,
+        "params": {
+            "num_layers": 2,
+            "hidden_dim_layer_1": 64,
+            "hidden_dim_layer_2": 32,
+            "dropout": 0.0,
+            "lr": 0.001,
+            "batch_size": 256
+        },
+        "value": 0.6042670594495078,
+        "user_attrs": {
+            "seed_trial": true,
+            "val_acc": 0.680176306170716,
+            "val_f1": 0.6254158421231676,
+            "val_precision": 0.7034126082649474,
+            "val_recall": 0.680176306170716
+        },
+        "duration": "0:00:00.000002"
+    },
+    {
+        "trial_number": 1,
+        "params": {
+            "batch_size": 128,
+            "num_layers": 2,
+            "hidden_dim_layer_1": 32,
+            "hidden_dim_layer_2": 128,
+            "dropout": 0.20444787631083872,
+            "lr": 0.0030822972472418038
+        },
+        "value": 0.6330528496619425,
+        "user_attrs": {
+            "val_acc": 0.6205117179101268,
+            "val_f1": 0.5412461545261752,
+            "val_precision": 0.5877355487956653,
+            "val_recall": 0.6205117179101268
+        },
+        "duration": "0:01:11.978374"
+    },
+    {
+        "trial_number": 2,
+        "params": {
+            "batch_size": 256,
+            "num_layers": 3,
+            "hidden_dim_layer_1": 112,
+            "hidden_dim_layer_2": 80,
+            "hidden_dim_layer_3": 128,
+            "dropout": 0.44543348411768735,
+            "lr": 2.2724968362497497e-05
+        },
+        "value": 0.6646551051541724,
+        "user_attrs": {
+            "val_acc": 0.6257794022790798,
+            "val_f1": 0.4913273477938644,
+            "val_precision": 0.7458495674284481,
+            "val_recall": 0.6257794022790798
+        },
+        "duration": "0:01:27.215704"
+    },
+    {
+        "trial_number": 3,
+        "params": {
+            "batch_size": 256,
+            "num_layers": 2,
+            "hidden_dim_layer_1": 32,
+            "hidden_dim_layer_2": 32,
+            "dropout": 0.09101154327434363,
+            "lr": 0.00026634504393029205
+        },
+        "value": 0.6419120279211455,
+        "user_attrs": {
+            "val_acc": 0.6371748011180391,
+            "val_f1": 0.5585198862911226,
+            "val_precision": 0.6295824494853632,
+            "val_recall": 0.6371748011180391
+        },
+        "duration": "0:01:03.098460"
+    },
+    {
+        "trial_number": 4,
+        "params": {
+            "batch_size": 128,
+            "num_layers": 4,
+            "hidden_dim_layer_1": 16,
+            "hidden_dim_layer_2": 80,
+            "hidden_dim_layer_3": 64,
+            "hidden_dim_layer_4": 32,
+            "dropout": 0.28949595653048477,
+            "lr": 0.0001940689827628355
+        },
+        "value": 0.7318942654494238,
+        "user_attrs": {
+            "val_acc": 0.6257794022790798,
+            "val_f1": 0.4907841599860799,
+            "val_precision": 0.7579533341504103,
+            "val_recall": 0.6257794022790798
+        },
+        "duration": "0:01:22.959041"
+    },
+    {
+        "trial_number": 5,
+        "params": {
+            "batch_size": 256,
+            "num_layers": 4,
+            "hidden_dim_layer_1": 64,
+            "hidden_dim_layer_2": 32,
+            "hidden_dim_layer_3": 32,
+            "hidden_dim_layer_4": 96,
+            "dropout": 0.4101516308635307,
+            "lr": 0.01422961804723923
+        },
+        "value": 0.6646607123608488,
+        "user_attrs": {
+            "val_acc": 0.6257794022790798,
+            "val_f1": 0.4907841599860799,
+            "val_precision": 0.7579533341504103,
+            "val_recall": 0.6257794022790798
+        },
+        "duration": "0:01:27.527726"
+    },
+    {
+        "trial_number": 6,
+        "params": {
+            "batch_size": 256,
+            "num_layers": 3,
+            "hidden_dim_layer_1": 96,
+            "hidden_dim_layer_2": 112,
+            "hidden_dim_layer_3": 32,
+            "dropout": 0.41946498765630463,
+            "lr": 0.05970062905058077
+        },
+        "value": 0.6654323093533849,
+        "user_attrs": {
+            "val_acc": 0.6257794022790798,
+            "val_f1": 0.4907841599860799,
+            "val_precision": 0.7579533341504103,
+            "val_recall": 0.6257794022790798
+        },
+        "duration": "0:01:23.507557"
+    }
+]

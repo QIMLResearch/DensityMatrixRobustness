@@ -1,0 +1,219 @@
+[
+    {
+        "trial_number": 0,
+        "params": {
+            "num_layers": 2,
+            "hidden_dim_layer_1": 64,
+            "hidden_dim_layer_2": 32,
+            "dropout": 0.0,
+            "lr": 0.001,
+            "batch_size": 128
+        },
+        "value": 0.22148979853849118,
+        "user_attrs": {
+            "seed_trial": true,
+            "val_acc": 0.992530345471522,
+            "val_f1": 0.9925150076009258,
+            "val_precision": 0.9926186131764375,
+            "val_recall": 0.992530345471522
+        },
+        "duration": "0:00:00.000002"
+    },
+    {
+        "trial_number": 1,
+        "params": {
+            "batch_size": 256,
+            "num_layers": 2,
+            "hidden_dim_layer_1": 32,
+            "hidden_dim_layer_2": 32,
+            "dropout": 0.08888668358802826,
+            "lr": 3.136691647611085e-05
+        },
+        "value": 0.2275023728080379,
+        "user_attrs": {
+            "val_acc": 0.9878618113912232,
+            "val_f1": 0.9878271132487798,
+            "val_precision": 0.9880167923947072,
+            "val_recall": 0.9878618113912232
+        },
+        "duration": "0:02:05.893140"
+    },
+    {
+        "trial_number": 2,
+        "params": {
+            "batch_size": 64,
+            "num_layers": 2,
+            "hidden_dim_layer_1": 16,
+            "hidden_dim_layer_2": 48,
+            "dropout": 0.2647368072738893,
+            "lr": 0.00033203968758299836
+        },
+        "value": 0.2209720723017925,
+        "user_attrs": {
+            "val_acc": 0.9906629318394025,
+            "val_f1": 0.9906387672230992,
+            "val_precision": 0.9908004438888958,
+            "val_recall": 0.9906629318394025
+        },
+        "duration": "0:02:14.572374"
+    },
+    {
+        "trial_number": 3,
+        "params": {
+            "batch_size": 128,
+            "num_layers": 2,
+            "hidden_dim_layer_1": 80,
+            "hidden_dim_layer_2": 16,
+            "dropout": 0.0695673858720865,
+            "lr": 2.309672118841351e-05
+        },
+        "value": 0.2658126057585637,
+        "user_attrs": {
+            "val_acc": 0.988795518207283,
+            "val_f1": 0.9887604334663158,
+            "val_precision": 0.9889929540097977,
+            "val_recall": 0.988795518207283
+        },
+        "duration": "0:02:10.574342"
+    },
+    {
+        "trial_number": 4,
+        "params": {
+            "batch_size": 128,
+            "num_layers": 2,
+            "hidden_dim_layer_1": 16,
+            "hidden_dim_layer_2": 112,
+            "dropout": 0.24906214284560202,
+            "lr": 0.0013585122978412992
+        },
+        "value": 0.22006709354709622,
+        "user_attrs": {
+            "val_acc": 0.9915966386554622,
+            "val_f1": 0.9915771460494102,
+            "val_precision": 0.9917081876998588,
+            "val_recall": 0.9915966386554622
+        },
+        "duration": "0:02:08.959029"
+    },
+    {
+        "trial_number": 5,
+        "params": {
+            "batch_size": 64,
+            "num_layers": 3,
+            "hidden_dim_layer_1": 48,
+            "hidden_dim_layer_2": 96,
+            "hidden_dim_layer_3": 96,
+            "dropout": 0.36110259469948186,
+            "lr": 0.0003497730268216058
+        },
+        "value": 0.21899822252749507,
+        "user_attrs": {
+            "val_acc": 0.9915966386554622,
+            "val_f1": 0.9915771460494102,
+            "val_precision": 0.9917081876998588,
+            "val_recall": 0.9915966386554622
+        },
+        "duration": "0:02:18.235921"
+    },
+    {
+        "trial_number": 6,
+        "params": {
+            "batch_size": 64,
+            "num_layers": 4,
+            "hidden_dim_layer_1": 32,
+            "hidden_dim_layer_2": 64,
+            "hidden_dim_layer_3": 96,
+            "hidden_dim_layer_4": 112,
+            "dropout": 0.06031855076111081,
+            "lr": 0.0049578224423469765
+        },
+        "value": 0.21854070713874005,
+        "user_attrs": {
+            "val_acc": 0.992530345471522,
+            "val_f1": 0.9925150076009258,
+            "val_precision": 0.9926186131764375,
+            "val_recall": 0.992530345471522
+        },
+        "duration": "0:02:21.310754"
+    },
+    {
+        "trial_number": 7,
+        "params": {
+            "batch_size": 128,
+            "num_layers": 2,
+            "hidden_dim_layer_1": 96,
+            "hidden_dim_layer_2": 64,
+            "dropout": 0.26009867641913276,
+            "lr": 0.0032025180167773765
+        },
+        "value": 0.2188735600946998,
+        "user_attrs": {
+            "val_acc": 0.9915966386554622,
+            "val_f1": 0.9915771460494102,
+            "val_precision": 0.9917081876998588,
+            "val_recall": 0.9915966386554622
+        },
+        "duration": "0:02:11.375670"
+    },
+    {
+        "trial_number": 8,
+        "params": {
+            "batch_size": 256,
+            "num_layers": 2,
+            "hidden_dim_layer_1": 112,
+            "hidden_dim_layer_2": 96,
+            "dropout": 0.26840729605618224,
+            "lr": 0.08887940592926867
+        },
+        "value": 0.220326518617313,
+        "user_attrs": {
+            "val_acc": 0.9915966386554622,
+            "val_f1": 0.9915771460494102,
+            "val_precision": 0.9917081876998588,
+            "val_recall": 0.9915966386554622
+        },
+        "duration": "0:02:07.566638"
+    },
+    {
+        "trial_number": 9,
+        "params": {
+            "batch_size": 128,
+            "num_layers": 4,
+            "hidden_dim_layer_1": 16,
+            "hidden_dim_layer_2": 112,
+            "hidden_dim_layer_3": 112,
+            "hidden_dim_layer_4": 32,
+            "dropout": 0.40523466346636866,
+            "lr": 1.8621109063534134e-05
+        },
+        "value": 0.23571364596889577,
+        "user_attrs": {
+            "val_acc": 0.9878618113912232,
+            "val_f1": 0.9878271132487798,
+            "val_precision": 0.9880167923947072,
+            "val_recall": 0.9878618113912232
+        },
+        "duration": "0:02:12.753926"
+    },
+    {
+        "trial_number": 10,
+        "params": {
+            "batch_size": 64,
+            "num_layers": 4,
+            "hidden_dim_layer_1": 128,
+            "hidden_dim_layer_2": 80,
+            "hidden_dim_layer_3": 16,
+            "hidden_dim_layer_4": 128,
+            "dropout": 0.1464690572343518,
+            "lr": 0.031040584453424166
+        },
+        "value": 0.22041295933511967,
+        "user_attrs": {
+            "val_acc": 0.9915966386554622,
+            "val_f1": 0.9915771460494102,
+            "val_precision": 0.9917081876998588,
+            "val_recall": 0.9915966386554622
+        },
+        "duration": "0:02:29.100089"
+    }
+]

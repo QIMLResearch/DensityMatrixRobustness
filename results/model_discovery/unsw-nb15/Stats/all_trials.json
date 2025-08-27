@@ -1,0 +1,144 @@
+[
+    {
+        "trial_number": 0,
+        "params": {
+            "num_layers": 2,
+            "hidden_dim_layer_1": 64,
+            "hidden_dim_layer_2": 32,
+            "dropout": 0.0,
+            "lr": 0.001,
+            "batch_size": 128
+        },
+        "value": 0.5264613888536094,
+        "user_attrs": {
+            "seed_trial": true,
+            "val_acc": 0.9910141206675225,
+            "val_f1": 0.9912821416360368,
+            "val_precision": 0.9923636265659591,
+            "val_recall": 0.9910141206675225
+        },
+        "duration": "0:00:00.000006"
+    },
+    {
+        "trial_number": 1,
+        "params": {
+            "batch_size": 256,
+            "num_layers": 4,
+            "hidden_dim_layer_1": 48,
+            "hidden_dim_layer_2": 128,
+            "hidden_dim_layer_3": 80,
+            "hidden_dim_layer_4": 128,
+            "dropout": 0.3784059694375774,
+            "lr": 0.00018128878443379555
+        },
+        "value": 0.5930424093128934,
+        "user_attrs": {
+            "val_acc": 0.9563543003851092,
+            "val_f1": 0.950750473544171,
+            "val_precision": 0.9472136194936157,
+            "val_recall": 0.9563543003851092
+        },
+        "duration": "0:00:10.644640"
+    },
+    {
+        "trial_number": 2,
+        "params": {
+            "batch_size": 256,
+            "num_layers": 3,
+            "hidden_dim_layer_1": 48,
+            "hidden_dim_layer_2": 16,
+            "hidden_dim_layer_3": 32,
+            "dropout": 0.004103615432693608,
+            "lr": 0.00014153074263317588
+        },
+        "value": 0.5977039124448431,
+        "user_attrs": {
+            "val_acc": 0.9704749679075738,
+            "val_f1": 0.966105590952822,
+            "val_precision": 0.9763521188577474,
+            "val_recall": 0.9704749679075738
+        },
+        "duration": "0:00:09.472243"
+    },
+    {
+        "trial_number": 3,
+        "params": {
+            "batch_size": 256,
+            "num_layers": 2,
+            "hidden_dim_layer_1": 32,
+            "hidden_dim_layer_2": 112,
+            "dropout": 0.10658573895903006,
+            "lr": 3.4298700170523925e-05
+        },
+        "value": 0.7047136516258866,
+        "user_attrs": {
+            "val_acc": 0.9191270860077022,
+            "val_f1": 0.8993358459201442,
+            "val_precision": 0.8885242607975521,
+            "val_recall": 0.9191270860077022
+        },
+        "duration": "0:00:08.891825"
+    },
+    {
+        "trial_number": 4,
+        "params": {
+            "batch_size": 64,
+            "num_layers": 4,
+            "hidden_dim_layer_1": 48,
+            "hidden_dim_layer_2": 96,
+            "hidden_dim_layer_3": 96,
+            "hidden_dim_layer_4": 96,
+            "dropout": 0.4211110385267315,
+            "lr": 3.6832290588275626e-05
+        },
+        "value": 0.6799192046782477,
+        "user_attrs": {
+            "val_acc": 0.9114249037227214,
+            "val_f1": 0.8950737343950012,
+            "val_precision": 0.8823018714951693,
+            "val_recall": 0.9114249037227214
+        },
+        "duration": "0:00:38.940657"
+    },
+    {
+        "trial_number": 5,
+        "params": {
+            "batch_size": 64,
+            "num_layers": 4,
+            "hidden_dim_layer_1": 112,
+            "hidden_dim_layer_2": 64,
+            "hidden_dim_layer_3": 80,
+            "hidden_dim_layer_4": 48,
+            "dropout": 0.3318968736088826,
+            "lr": 0.09047487965533375
+        },
+        "value": 0.5816363671624768,
+        "user_attrs": {
+            "val_acc": 0.9704749679075738,
+            "val_f1": 0.9653789851947243,
+            "val_precision": 0.9633214394612104,
+            "val_recall": 0.9704749679075738
+        },
+        "duration": "0:00:40.183582"
+    },
+    {
+        "trial_number": 6,
+        "params": {
+            "batch_size": 128,
+            "num_layers": 3,
+            "hidden_dim_layer_1": 128,
+            "hidden_dim_layer_2": 80,
+            "hidden_dim_layer_3": 32,
+            "dropout": 0.3824000309775891,
+            "lr": 0.015640060358145857
+        },
+        "value": 0.5479826136027129,
+        "user_attrs": {
+            "val_acc": 0.9871630295250321,
+            "val_f1": 0.9871189657624816,
+            "val_precision": 0.9871992145979528,
+            "val_recall": 0.9871630295250321
+        },
+        "duration": "0:00:18.587967"
+    }
+]

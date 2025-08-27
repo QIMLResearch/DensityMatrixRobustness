@@ -1,0 +1,1 @@
+{"num_layers": 2, "hidden_dim_layer_1": 64, "hidden_dim_layer_2": 32, "dropout": 0.0, "lr": 0.001, "batch_size": 128}
